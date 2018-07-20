@@ -1,6 +1,5 @@
 <?php
 require_once dirname(__FILE__) . '/config.php';
-require_once dirname(__FILE__) . '/unirest-php/src/Unirest.php';
 
 function push_noti($linenotify_token){
     for($i=0;$i<count($linenotify_token);$i++)
